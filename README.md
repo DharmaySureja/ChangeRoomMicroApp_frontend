@@ -51,10 +51,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="screenshots/image4" width = "100">
-<img src="screenshots/image2" width = "100">
-<img src="screenshots/image3" width = "100">
-<img src="screenshots/image5" width = "100">
+<img src="screenshots/image4.png" width = "100">
+<img src="screenshots/image2.png" width = "100">
+<img src="screenshots/image3.png" width = "100">
+<img src="screenshots/image5.png" width = "100">
 
 
 As part of Tulip Hackday 2023, I developed Change Room Micro App. Which solves the issue of getting hold of changeroom inside partner retail stores and enables seamless and hassalefree retail experience for customers.
