@@ -79,7 +79,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![MongoDB][Mongo]]
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -123,7 +123,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm start
    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -134,7 +134,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
