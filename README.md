@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="screenshots/image4.png" width = "100">
+<img src="screenshots/image%204.png" width = "100">
 <img src="screenshots/image2.png" width = "100">
 <img src="screenshots/image3.png" width = "100">
 <img src="screenshots/image5.png" width = "100">
