@@ -31,7 +31,7 @@ export default function RoomSelector(){
     useEffect(() => {
 
         axios
-            .get(`http://192.168.2.15:3100/api/changeroom/getroom`, {
+            .get(`http://localhost:3000/api/changeroom/getroom`, {
                 responseType: "json",
             })
             .then(function(response) {

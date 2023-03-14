@@ -37,7 +37,7 @@ export default function ReserveRoom(){
 
     useEffect(() => {
         axios
-            .post("http://192.168.2.15:3100/api/changeroom/getroom", form_data)
+            .post("http://localhost:3000/api/changeroom/getroom", form_data)
             .then((response) => {
                 setRoomsData(response.data.rooms);
                 console.log(response.data.rooms);
@@ -73,7 +73,7 @@ function bookRoom(){
     };
 
     axios
-        .post("http://192.168.2.15:3100/api/changeroom/reserve", form_data1)
+        .post("http://localhost:3000/api/changeroom/reserve", form_data1)
         .then((response) => {
             console.log(response.data.rooms);
             alert("BOOKED SUCCESS");
@@ -96,7 +96,7 @@ function ReleaseReservation(){
     };
 
     axios
-        .post("http://192.168.2.15:3100/api/changeroom/release", form_data1)
+        .post("http://localhost:3000/api/changeroom/release", form_data1)
         .then((response) => {
             alert("Successfully Released booking");
             window.location.reload();

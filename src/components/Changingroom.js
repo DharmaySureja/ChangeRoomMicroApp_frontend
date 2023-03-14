@@ -26,7 +26,7 @@ export default function ChangingRoom(){
     useEffect(() => {
         document.body.style.backgroundColor = "WHITE"
         axios
-            .post("http://192.168.2.15:3100/api/changeroom/getroom", form_data)
+            .post("http://localhost:3000/api/changeroom/getroom", form_data)
             .then((response) => {
                 setRoomsData(response.data.rooms);
                 console.log(response.data.rooms);
@@ -45,7 +45,7 @@ export default function ChangingRoom(){
     function callHelp(){
     setHelpStmnt("Help is on the Way!");
         axios
-            .post("http://192.168.2.15:3100/api/changeroom/gethelp", form_data)
+            .post("http://localhost:3000/api/changeroom/gethelp", form_data)
             .then((response) => {
             })
             .catch(function(error) {

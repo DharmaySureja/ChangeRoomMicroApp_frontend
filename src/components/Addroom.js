@@ -28,7 +28,7 @@ function add(){
     };
 
     axios
-        .post("http://192.168.2.15:3100/api/changeroom/addroom", form_data)
+        .post("http://localhost:3000/api/changeroom/addroom", form_data)
         .then((response) => {
             console.log(response.data.rooms);
             window.location.href = `/`;
